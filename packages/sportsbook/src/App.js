@@ -18,7 +18,6 @@ import BetHistoryButton from './components/BetHistoryButton/BetHistoryButton';
 import { selectIsAuth } from './redux/reducers/auth/auth.slice';
 
 function App() {
-  console.log('EAAAAAA');
   const { pathname } = useLocation();
   const routes = useRoutes(ALL_ROUTES);
   const dispatch = useDispatch();
