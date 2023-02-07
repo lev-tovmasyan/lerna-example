@@ -1,6 +1,6 @@
 {
   "name": "alternar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
@@ -33,7 +33,7 @@
     "redux-persist": "^6.0.0",
     "reselect": "^4.1.7",
     "socket.io-client": "^4.5.4",
-    "sportsbook": "*",
+    "sportsbook": "^1.0.2",
     "string-similarity": "^4.0.4",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
@@ -61,6 +61,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {}
+  }
 }
