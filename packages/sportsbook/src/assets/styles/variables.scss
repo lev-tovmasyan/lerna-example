@@ -1,0 +1,47 @@
+:root {
+  --color-background: rgb(229, 229, 229);
+  --color-background-dark: rgb(23, 26, 33);
+  --color-background-3: rgba(23, 26, 33, 0.3);
+  --color-background-7: rgba(23, 26, 33, 0.7);
+  --color-active-contrast: rgb(33, 39, 51);
+  --color-active: rgb(255, 177, 36);
+  --color-yellow: rgb(255, 177, 36);
+  --color-text: rgb(255, 255, 255);
+  --color-placeholder: rgb(117, 117, 121);
+  --color-sport-icon: rgb(255, 255, 255);
+  --color-inactive: rgb(119, 135, 167);
+  --color-second: rgb(40, 47, 62);
+  --color-third: rgb(55, 64, 82);
+  --color-betslip-bg: rgb(49, 57, 74);
+  --color-increment: rgb(0, 152, 71);
+  --color-decrement: rgb(224, 0, 15);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-black--05: rgba(0, 0, 0, 0.5);
+
+  --color-correctScore: rgb(224, 224, 224);
+
+  --color-skeleton: rgb(40, 47, 62);
+  --color-skeleton-bg: rgb(49, 57, 74);
+
+
+  //--color-active-contrast: rgb(255, 255, 255);
+  //--color-text: rgb(67, 67, 67);
+  //--color-second: rgb(232, 177, 22);
+
+}
+
+[data-theme='purple'] {
+  --color-background-dark: rgb(35, 34, 61);
+  --color-background-3: rgba(22, 19, 35, .3);
+  --color-background-7: rgba(22, 19, 35, .7);
+  --color-active-contrast: rgb(49, 49, 90);
+  --color-betslip-bg: rgb(49, 49, 90);
+  --color-second: rgb(46, 46, 83);
+  --color-active: rgb(137, 97, 255);
+  --color-inactive: rgb(124, 123, 168);
+  --color-third: rgb(37, 34, 54);
+  --color-skeleton: rgb(33, 29, 46);
+  --color-skeleton-bg: rgb(61, 54, 82);
+
+}

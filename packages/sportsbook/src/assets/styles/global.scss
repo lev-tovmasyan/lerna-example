@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: "Roboto",'GT Walsheim Pro', sans-serif;
+  font-size: 16px;
+
+  @media screen and (max-width: 1600px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    font-size: 14px;
+  }
+}
+
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--color-background-dark);
+}
+
+body[data-theme="starsBet"] {
+  background-color: var(--color-background);
+}
+
+
+.hidden {
+  display: none;
+}
+
+.App {
+  padding: 0.5rem 0.94rem;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 800px) {
+    padding: 0.25rem;
+  }
+}
+
+.ellipsis {
+  overflow: hidden;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+//@media screen and (max-width: 782px){
+//  html {
+//    font-size: 14px;
+//  }
+//}
+//
+//@media screen and (max-width: 450px){
+//  html {
+//    font-size: 12px;
+//  }
+//}
